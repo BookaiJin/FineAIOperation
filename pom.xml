@@ -50,6 +50,7 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <outputDirectory>${web-inf-path}/classes</outputDirectory>
         <testOutputDirectory>${web-inf-path}/test-classes</testOutputDirectory>
         <resources>
